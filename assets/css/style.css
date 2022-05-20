@@ -1804,3 +1804,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  #wework {
+    display: none;
+  }
+}
