@@ -1805,8 +1805,16 @@ section {
   text-decoration: none;
 }
 
+.services-mobile {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
-  #wework {
-    display: none;
+  .services-desktop {
+    display: none !important;
+  }
+
+  .services-mobile {
+    display: block !important;
   }
 }
