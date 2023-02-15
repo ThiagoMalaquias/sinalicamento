@@ -64,6 +64,41 @@
 
     gtag('config', 'UA-229064286-1');
   </script>
+
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199968966-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-199968966-1');
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-319162931"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-319162931');
+  </script>
+
+  <!-- Event snippet for Contato whats conversion page-->
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[href*="whatsapp"]').forEach(function (el) {
+        el.addEventListener('click', function () {
+          console.log('whatsapp conversion')
+          gtag('event', 'conversion', {
+            'send_to': 'AW-319162931/izvGCIjdmJIDELOUmJgB'
+          });
+        });
+      })
+    })
+  </script>
 </head>
 
 <body>
