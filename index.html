@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sinal Içamento</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Sinal Içamento | Içamento de Móveis em São Paulo, Litoral e ABC</title>
+  <meta name="description" content="Serviço de içamento para apartamentos, casas e obras em São Paulo. Segurança, agilidade e preço justo. Solicite orçamento!">
+  <meta name="keywords" content="içamento, içamento de móveis, içamento em apartamento, içamento em casa, içamento em obras, São Paulo, transporte vertical">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -33,6 +33,7 @@
   <!-- Banner styles -->
   <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="assets/css/cookie-banner.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
   <!-- Plugin initialization scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -82,66 +83,76 @@
     gtag('config', 'AW-319162931');
   </script>
 
-  <!-- Event snippet for Contato whats conversion page-->
-  <script>
-    window.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('a[href*="whatsapp"]').forEach(function (el) {
-        el.addEventListener('click', function () {
-          console.log('whatsapp conversion')
-          gtag('event', 'conversion', {
-            'send_to': 'AW-319162931/izvGCIjdmJIDELOUmJgB'
-          });
-        });
-      })
-    })
-  </script>
-</head>
+      <!-- Event snippet for Contato whats conversion page-->
+      <script>
+        window.addEventListener('DOMContentLoaded', function () {
+          document.querySelectorAll('a[href*="whatsapp"]').forEach(function (el) {
+            el.addEventListener('click', function () {
+              console.log('whatsapp conversion')
+              gtag('event', 'conversion', {
+                'send_to': 'AW-319162931/izvGCIjdmJIDELOUmJgB'
+              });
+            });
+          })
+        })
+      </script>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLZ26H8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+      <!-- SEO e Open Graph -->
+      <meta property="og:title" content="Sinal Içamento - Içamento de Móveis e Materiais em SP">
+      <meta property="og:description" content="Serviço de içamento para apartamentos, casas e obras em São Paulo. Segurança, agilidade e preço justo.">
+      <meta property="og:image" content="https://www.sinalicamento.com.br/assets/img/logo.jpg">
+      <meta property="og:url" content="https://www.sinalicamento.com.br">
+      <meta property="og:type" content="website">
+    </head>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-      <!-- <h1 class="logo me-auto"><a href="index.html">Presento<span>.</span></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.jpg" alt=""></a>
+    <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLZ26H8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sobre Nós</a></li>
-          <li><a class="nav-link scrollto " href="#galeria">Galeria</a></li>
-          <li><a class="nav-link scrollto" href="#services">Documentos</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contatos</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <div style="    text-align: center;">
-        <a href="https://api.whatsapp.com/send/?phone=5511970177808&text&app_absent=0"
-          class="get-started-btn scrollto">Solicite um Orçamento</a><br>
-        <a href="https://api.whatsapp.com/send/?phone=5511970177808&text&app_absent=0"
-          style="font-size: .8em;color: #ffffff;font-weight: 700;">
-          <img src="assets/img/icon-whats.png" alt="" class="img-fluid" style="width: 14px;
-          margin-right: 5px;">
-          (11) 97017-7808
-        </a>
-      </div>
-    </div>
-  </header><!-- End Header -->
+      <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+          <!-- <h1 class="logo me-auto"><a href="index.html">Presento<span>.</span></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo me-auto"><img src="assets/img/logo.jpg" alt=""></a>
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#tabs">Como Funciona</a></li>
+              <li><a class="nav-link scrollto" href="#services">Documentos</a></li>
+              <li><a class="nav-link scrollto" href="#galeria">Galeria</a></li>
+              <li><a class="nav-link scrollto" href="#about">Sobre Nós</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contatos</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+          <div style="    text-align: center;">
+            <a href="https://api.whatsapp.com/send/?phone=5511970177808&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento."
+              class="get-started-btn scrollto" style="background-color: green;">Orçamento por WhatsApp</a><br>
+            <a href="https://api.whatsapp.com/send/?phone=5511970177808&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento."
+              style="font-size: .8em;color: #ffffff;font-weight: 700">
+              <img src="assets/img/icon-whats.png" alt="" class="img-fluid" style="width: 14px;
+              margin-right: 5px;">
+              (11) 97017-7808
+            </a>
+          </div>
+        </div>
+      </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <div class="row">
         <div class="col-xl-6">
-          <h1>SERVIÇO DE IÇAMENTO PARA APARTAMENTO, CASAS E OBRAS.</h1>
-          <h2>Atendemos Grande São Paulo, Litoral e ABC.</h2>
-          <a href="https://api.whatsapp.com/send/?phone=5511970177808&text&app_absent=0"
-            class="btn-get-started scrollto">Solicite um Orçamento</a>
+          <div>
+            <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">SERVIÇO DE IÇAMENTO PARA APARTAMENTO, CASAS E OBRAS.</h1>
+            <h2>Içamento seguro e rápido em São Paulo, Litoral e ABC</h2>
+          </div>
+          <a href="https://api.whatsapp.com/send/?phone=5511970177808&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento."
+            class="btn-get-started scrollto" style="background-color: green; border-color: green; ">Orçamento por WhatsApp</a>
         </div>
       </div>
     </div>
@@ -198,11 +209,23 @@
                   <li><i class="ri-check-double-line"></i> Geladeira</li>
                   <li><i class="ri-check-double-line"></i> Espelhos</li>
                   <li><i class="ri-check-double-line"></i> Mármore</li>
-                  <li><i class="ri-check-double-line"></i> Tapete</li>
+                  <li><i class="ri-check-double-line"></i> Sofá</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/icamento-vidro.jpg" alt="" class="img-fluid">
+                <div class="video-container">
+                  <video 
+                    src="assets/video/cb98defc-9f3c-4720-8e08-181f87480db6.mov" 
+                    style="width:100%" 
+                    controls 
+                    muted 
+                    loop
+                    playsinline
+                    loading="lazy"
+                  >
+                    Seu navegador não suporta o elemento de vídeo.
+                  </video>  
+                </div>
               </div>
             </div>
           </div>
@@ -221,15 +244,27 @@
                 <ul>
                   <li><i class="ri-check-double-line"></i> Telha</li>
                   <li><i class="ri-check-double-line"></i> Mármore</li>
-                  <li><i class="ri-check-double-line"></i> Cofres</li>
-                  <li><i class="ri-check-double-line"></i> Exaustores</li>
+                  <li><i class="ri-check-double-line"></i> Coxão</li>
+                  <li><i class="ri-check-double-line"></i> Maquina de lavar</li>
                   <li><i class="ri-check-double-line"></i> Cortina</li>
                   <li><i class="ri-check-double-line"></i> Tapete</li>
                   <li><i class="ri-check-double-line"></i> Mesa de madeira</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/icamento-espelho.jpg" alt="" class="img-fluid">
+                <div class="video-container">
+                  <video 
+                    src="assets/video/94d55f8e-31d1-4e73-af82-9ef3cc23ddbe.MP4" 
+                    style="width:100%" 
+                    controls 
+                    muted 
+                    loop
+                    playsinline
+                    loading="lazy"
+                  >
+                    Seu navegador não suporta o elemento de vídeo.
+                  </video>  
+                </div>             
               </div>
             </div>
           </div>
@@ -253,12 +288,24 @@
                   <li><i class="ri-check-double-line"></i> Porcelanato</li>
                   <li><i class="ri-check-double-line"></i> Castilho</li>
                   <li><i class="ri-check-double-line"></i> Banheira</li>
-                  <li><i class="ri-check-double-line"></i> Caixa D’Água</li>
+                  <li><i class="ri-check-double-line"></i> Caixa D'Água</li>
                   <li><i class="ri-check-double-line"></i> Materiais de Obras</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/icamento-sopha.jpg" alt="" class="img-fluid">
+                <div class="video-container">
+                  <video 
+                    src="assets/video/414c110e-8a85-4c89-b129-7d48ba8024f9.mov" 
+                    style="width:100%" 
+                    controls 
+                    muted 
+                    loop
+                    playsinline
+                    loading="lazy"
+                  >
+                    Seu navegador não suporta o elemento de vídeo.
+                  </video>  
+                </div> 
               </div>
             </div>
           </div>
@@ -267,54 +314,78 @@
       </div>
     </section><!-- End Tabs Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg ">
       <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Documentos</h2>
+          <p>Documentos exigidos por lei e complementares fornecido por nós.</p>
+        </div>
 
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Sobre Nós</h3>
-              <p>
-                Somos uma empresa que vem fazendo diferença no mercado. Buscamos a honestidade e principalmente
-                profisionalismo. Oferecemos seguro total a todos clientes, realizando serviço com responsabilidade e
-                segurança.
-              </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-sort-up-alt"></i>
+              <h4><a href="#">NR 11</a></h4>
+              <p>Transporte, movimentação, armazenagem e manuseio de materiais.</p>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-world"></i>
-                  <h4>Experiência Consolidada</h4>
-                  <p>Temos mais de 05 anos de mercado e muita história pra contar!</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-trending-up"></i>
-                  <h4>Eficiencia e Agilidade</h4>
-                  <p>Ser uma organização complemente e orientada pela satisfação dos desejos e necessidades dos nossos
-                    clientes e ser referencia no mercado.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-money"></i>
-                  <h4>Preço Acessível</h4>
-                  <p>Somos uma empresa conhecida pelos preços justos e trabalho bem feito.</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Missão</h4>
-                  <p>Superar as expectativas em içamentos através de um serviço de qualidade, com responsabilidade e
-                    cuidado, contribuindo para a realização dos sonhos e planos dos nossos clientes.</p>
-
-                </div>
-              </div>
-            </div><!-- End .content-->
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 90%;">
+              <i class="bi bi-clipboard-check"></i>
+              <h4><a href="#">NR 12 </a></h4>
+              <p>Segurança no trabalho em máquinas e equipamentos.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">NR 35</a></h4>
+              <p>Trabalho em altura.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-minecart-loaded"></i>
+              <h4><a href="#">ART - Laudo Técnico</a></h4>
+              <p>(Emitida por Engenheiro Mecânico) referente ao equipamento</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-brightness-high"></i>
+              <h4><a href="#">ART - Plano de Rigging</a></h4>
+              <p>(Anotação de Responsabilidade Técnica) referente ao serviço executado.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="600" style="height: 88%;">
+              <i class="bi bi-shield-fill-check"></i>
+              <h4><a href="#">APR</a></h4>
+              <p>Analise Preliminar de Risco.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="700">
+              <i class="bi bi-receipt-cutoff"></i>
+              <h4><a href="#">NR 18</a></h4>
+              <p>Esta Norna Regulamentadora – NR 18 tem o objetivo de estabelecer diretrizes de ordem administrativa, de
+                planejamento e de organização, que visam a implementação de medidas de controle e sistemas preventivos
+                de segurança nos processos, nas condições e no meio ambiente de trabalho na industria da construção.</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="700" style="height: 90%;">
+              <i class="bi bi-calendar4-week"></i>
+              <h4><a href="#">ASO</a></h4>
+              <p>(Programa de Controle Médico de Saúde Ocupacional), é uma importante ferramenta para a preservação da
+                saúde dos colaboradores de uma empresa.</p>
+            </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Services Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="wework" class="services tabs">
@@ -380,213 +451,186 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="galeria" class="portfolio">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Galeria</h2>
           <p>Confira alguns projetos que nos enchem de orgulho.</p>
         </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/8f2abb6c-e65b-40c4-8eb3-9c94df2cd2f9.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/8f2abb6c-e65b-40c4-8eb3-9c94df2cd2f9.JPG"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
+       
+        <div class="swiper swiper-gallery">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0001-1342537051304400070 1.png" alt="Içamento de móveis em apartamento em São Paulo" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0001-7214105063466901592 1.jpg" alt="Içamento de sofá em prédio residencial" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">  
+              <img src="assets/img/icamentos/0002-1342537051304400070 2.png" alt="Içamento de geladeira em apartamento" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0002-3964757933731909331 2.png" alt="Içamento de móveis grandes em edifício" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0002-7214105063466901592 2.png" alt="Içamento de objetos pesados em São Paulo" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0003-1342537051304400070 3.png" alt="Içamento de móveis para andar alto" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0004-1342537051304400070 4.png" alt="Içamento de móveis em condomínio" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0004-7214105063466901592 4.png" alt="Içamento de objetos volumosos em prédio" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide"> 
+              <img src="assets/img/icamentos/0005-1342537051304400070 5.png" alt="Içamento de móveis com equipe especializada" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0005-3964757933731909331 5.png" alt="Içamento seguro de móveis em apartamento" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0005-7214105063466901592 5.png" alt="Içamento de móveis em edifício residencial" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0006-1342537051304400070 6.png" alt="Içamento de móveis em São Paulo" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0006-3964757933731909331 6.png" alt="Içamento de objetos grandes em apartamento" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0007-1342537051304400070 7.png" alt="Içamento de móveis em obra residencial" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0007-3964757933731909331 7.png" alt="Içamento de móveis em prédio alto" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0008-1342537051304400070 8.png" alt="Içamento de móveis em condomínio de luxo" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0008-3964757933731909331 8.png" alt="Içamento de móveis em edifício comercial" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0009-1342537051304400070 9.png" alt="Içamento de móveis em prédio comercial" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0009-3964757933731909331 9.png" alt="Içamento de móveis em obra de construção" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0010-1342537051304400070 10.png" alt="Içamento de móveis em apartamento novo" style="width:100%" loading="lazy">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/icamentos/0010-3964757933731909331 10.png" alt="Içamento de móveis em prédio residencial" style="width:100%" loading="lazy">
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/7833f2a0-037f-4de3-91ac-7b9b8da4d787.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/7833f2a0-037f-4de3-91ac-7b9b8da4d787.JPG"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
+        <div class="swiper swiper-video mt-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <video 
+              src="assets/video/4e085db1-8c87-4cff-ae55-756bdaff7d73.mp4" 
+              style="width:100%" 
+              controls 
+              muted 
+              loop 
+              playsinline
+              loading="lazy"
+            >
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+            </div>
+            <div class="swiper-slide">
+              <video 
+                src="assets/video/0409dd66-a91e-425c-8228-4107f296abf0.mp4" 
+                style="width:100%" 
+                controls 
+                muted 
+                loop
+                playsinline
+                loading="lazy"
+                >
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+            <div class="swiper-slide">
+              <video 
+              src="assets/video/6e531247-6c10-450e-9eee-164725e71cfd.mp4" 
+              style="width:100%" 
+              controls
+              muted 
+              loop
+              playsinline
+              loading="lazy"
+            >
+              Seu navegador não suporta o elemento de vídeo.
+            </video>           
+          </div>
+            <div class="swiper-slide">
+              <video 
+                src="assets/video/5b9038f2-18c8-41dd-8882-2289c03ee360.mp4" 
+                style="width:100%" 
+                controls 
+                muted 
+                loop
+                playsinline
+                loading="lazy"
+              >
+                Seu navegador não suporta o elemento de vídeo.
+              </video>           
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/c63efdd1-37cf-4b69-a025-0cee6755bb86.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/c63efdd1-37cf-4b69-a025-0cee6755bb86.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/05c54710-b37f-4d6d-b19b-323d800586d4.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/05c54710-b37f-4d6d-b19b-323d800586d4.JPG"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/47f30108-0b1a-4003-97fd-a127cdee4941.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/47f30108-0b1a-4003-97fd-a127cdee4941.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/96c06834-ed29-45fa-b98f-1c353a9a74ca.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/96c06834-ed29-45fa-b98f-1c353a9a74ca.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/568f0697-cfd1-4881-b0e0-0e80ffffb10b.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/568f0697-cfd1-4881-b0e0-0e80ffffb10b.JPG"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/e344c4b2-a028-4d99-87b6-0b9632c6df91.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/e344c4b2-a028-4d99-87b6-0b9632c6df91.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/icamentos/59ac8c13-1f0e-4476-bb98-2e30ee4d1e54.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div class="portfolio-links">
-                  <a href="assets/img/icamentos/59ac8c13-1f0e-4476-bb98-2e30ee4d1e54.jpg"
-                    data-gallery="portfolioGallery" class="portfolio-lightbox" title="Içamento 1"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Documentos</h2>
-          <p>Documentos exigidos por lei e complementares fornecido por nós.</p>
-        </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-sort-up-alt"></i>
-              <h4><a href="#">NR 11</a></h4>
-              <p>Transporte, movimentação, armazenagem e manuseio de materiais.</p>
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Sobre Nós</h3>
+              <p>
+                Somos uma empresa que vem fazendo diferença no mercado. Buscamos a honestidade e principalmente
+                profisionalismo. Oferecemos seguro total a todos clientes, realizando serviço com responsabilidade e
+                segurança.
+              </p>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="height: 90%;">
-              <i class="bi bi-clipboard-check"></i>
-              <h4><a href="#">NR 12 </a></h4>
-              <p>Segurança no trabalho em máquinas e equipamentos.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">NR 35</a></h4>
-              <p>Trabalho em altura.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-minecart-loaded"></i>
-              <h4><a href="#">ART - Equipamento</a></h4>
-              <p>(Emitida por Engenheiro Mecânico) referente ao equipamento</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">ART - Execução do Serviço</a></h4>
-              <p>(Anotação de Responsabilidade Técnica) referente ao serviço executado.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="600" style="height: 88%;">
-              <i class="bi bi-shield-fill-check"></i>
-              <h4><a href="#">APR</a></h4>
-              <p>Analise Preliminar de Risco.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="700">
-              <i class="bi bi-receipt-cutoff"></i>
-              <h4><a href="#">NR 18</a></h4>
-              <p>Esta Norna Regulamentadora – NR 18 tem o objetivo de estabelecer diretrizes de ordem administrativa, de
-                planejamento e de organização, que visam a implementação de medidas de controle e sistemas preventivos
-                de segurança nos processos, nas condições e no meio ambiente de trabalho na industria da construção.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="700" style="height: 90%;">
-              <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">ASO</a></h4>
-              <p>(Programa de Controle Médico de Saúde Ocupacional), é uma importante ferramenta para a preservação da
-                saúde dos colaboradores de uma empresa.</p>
-            </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-world"></i>
+                  <h4>Experiência Consolidada</h4>
+                  <p>Temos mais de 05 anos de mercado e muita história pra contar!</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-trending-up"></i>
+                  <h4>Eficiencia e Agilidade</h4>
+                  <p>Ser uma organização complemente e orientada pela satisfação dos desejos e necessidades dos nossos
+                    clientes e ser referencia no mercado.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-money"></i>
+                  <h4>Preço Acessível</h4>
+                  <p>Somos uma empresa conhecida pelos preços justos e trabalho bem feito.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-shield"></i>
+                  <h4>Missão</h4>
+                  <p>Superar as expectativas em içamentos através de um serviço de qualidade, com responsabilidade e
+                    cuidado, contribuindo para a realização dos sonhos e planos dos nossos clientes.</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
           </div>
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End About Section -->
+
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -602,7 +646,7 @@
                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
             <div id="faq1" class="collapse" data-bs-parent=".faq-list">
               <p>
-                De acordo com o dicionário, içamento é “a ação ou efeito de içar, erguer, fazer subir”. No âmbito da
+                De acordo com o dicionário, içamento é "a ação ou efeito de içar, erguer, fazer subir". No âmbito da
                 construção civil. Em uma obra, içamento é o serviço que, literalmente, faz um objeto ser erguido sem o
                 auxílio de um elevador ou escada. Em outras palavras, é a atividade que eleva um item pelo lado externo
                 do edifício, rente à fachada, e o coloca para dentro do local de destino pela varanda ou janela.
@@ -708,7 +752,7 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Telefone</h3>
-                  <p><a href="https://api.whatsapp.com/send/?phone=5511970177808&text&app_absent=0">
+                  <p><a href="https://api.whatsapp.com/send/?phone=5511970177808&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento.">
                       <img src="assets/img/icon-whats.png" alt="" class="img-fluid"
                         style="width: 14px;margin-right: 5px;">
                       (11) 97017-7808
@@ -727,7 +771,6 @@
         </div>
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -740,27 +783,45 @@
           &copy; Copyright <strong><span>Sinal Içamento</span></strong>. Todos os Direitos Reservados.
         </div>
       </div>
-      <div class="social-links text-center text-md-end pt-3 pt-md-0 d-none">
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="https://www.tiktok.com/@sinalicamento?_t=ZM-8w1w9OaiCVq&_r=1" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+        <a href="https://www.instagram.com/sinalicamento?igsh=MXR2b3poeXJsOW44eg%3D%3D&utm_source=qr" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <a href="https://api.whatsapp.com/send/?phone=5511970177808&text=Olá!%20Quero%20um%20orçamento"
+      class="whatsapp-float" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+     <i class="bx bxl-whatsapp"></i>
+   </a>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/purecounter/purecounter.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-</body>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiperGallery = new Swiper('.swiper-gallery', {
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+    });
+
+    const swiperVideo = new Swiper('.swiper-video', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+    });
+  </script>
+</body>
 </html>
